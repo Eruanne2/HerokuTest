@@ -1,5 +1,33 @@
 {
   "name": "HerokuTest",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch --mode=development",
+    "build": "wepback --watch --mode=production",
+    "postinstall": "webpack"
+  },
+  "engines": {
+    "node": "12.13.0",
+    "npm": "6.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eruanne2/HerokuTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eruanne2/HerokuTest/issues"
+  },
+  "homepage": "https://github.com/Eruanne2/HerokuTest#readme"
 }
